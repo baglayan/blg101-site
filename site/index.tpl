@@ -50,26 +50,7 @@
                     </ul>
                 </div>
             </div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>IP address</th>
-                        <th>Visit count</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    %for cia in address_dict:
-                    <tr>
-                        <td>{{cia}}</td>
-                        <td>{{address_dict[cia]}}</td>
-                    </tr>
-                    %end
-                </tbody>
-            </table>
-            <form action="/" method="POST">
-                <input type="password" name="password" required>
-                <input class="button" value="Reset" type="submit">
-            </form>
+            
 
             <div class="survey">
                 <form action="/response" method="POST">
