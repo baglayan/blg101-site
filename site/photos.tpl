@@ -6,7 +6,7 @@
     <title>Fictional developer portfolio of Chirem Nayalab</title>
     <meta name="description" content="Welcome to my portfolio. You will not be disappointed.">
     <link rel="stylesheet" type="text/css" href="https://baglayan.github.io/baglayanDEV/style.css" />
-    <link rel="icon" href="https://itu-itis-2019.github.io/assignment1-ituitis-baglayan19/images/moonstrucklogo.png">
+    <link rel="icon" href="static/images/moonstrucklogo.png">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
             <div class="entiretext">
 
                 <h1 id="art">Art</h1>
-                <img id="lasereyes" src="https://itu-itis-2019.github.io/assignment1-ituitis-baglayan19/images/bowtielasereyes.png" alt="An inversed portrait with laser eyes" width=200>
+                <img id="lasereyes" src="static/images/bowtielasereyes.png" alt="An inversed portrait with laser eyes" width=200>
                 <p style="text-align: justify" class="smalltext">Here are some pieces of fine art I stumbled upon on the Internet by complete coincidence. Here, you see the depiction of the artist who created the beauties below. His supreme understanding of the subject of graphical design has allowed
                     the humanity to interiorize the gorgeous sight of the sunset in different contexts. It is believed that the meaning of life is encoded somewhere in these demonstrations of virtuosity, but nobody was able to find it. The reason I put
                     these here was to help people who want to know me more, by letting them know what kind of art I enjoy.</p>
@@ -34,19 +34,19 @@
 
                 <div class="images">
 
-                    <img src="https://itu-itis-2019.github.io/assignment1-ituitis-baglayan19/images/sunset.jpg" alt="The original sunset image in its full seven megabytes of glory.">
+                    <img src="static/images/sunset.jpg" alt="The original sunset image in its full seven megabytes of glory.">
                     <p class="imagesubtext">The original sunset image in its full seven megabytes of glory.<br><a href="https://imaging.nikon.com/lineup/dslr/df/sample.htm">Source</a></p>
 
-                    <img src="https://itu-itis-2019.github.io/assignment1-ituitis-baglayan19/images/sunset_colormodified.jpg" alt="Color modified">
+                    <img src="static/images/sunset_colormodified.jpg" alt="Color modified">
                     <p class="imagesubtext">Color modified</p>
 
-                    <img src="https://itu-itis-2019.github.io/assignment1-ituitis-baglayan19/images/sunset_drawingapplied2.jpg" alt="Some birds are drawn on it">
+                    <img src="static/images/sunset_drawingapplied2.jpg" alt="Some birds are drawn on it">
                     <p class="imagesubtext">Some birds are drawn on it</p>
 
-                    <img src="https://itu-itis-2019.github.io/assignment1-ituitis-baglayan19/images/sunset_selectionmanipulation.jpg" alt="A piece was selected, copied and pasted to some other place">
+                    <img src="static/images/sunset_selectionmanipulation.jpg" alt="A piece was selected, copied and pasted to some other place">
                     <p class="imagesubtext">A piece was selected, copied and pasted to some other place</p>
 
-                    <img src="https://itu-itis-2019.github.io/assignment1-ituitis-baglayan19/images/sunsetpathbirds.jpg" alt="Some birds are drawn but it's done using paths this time">
+                    <img src="static/images/sunsetpathbirds.jpg" alt="Some birds are drawn but it's done using paths this time">
                     <p class="imagesubtext">Some birds are drawn but it's done using paths this time. Note that some transformations were used to resize the original path.</p>
                 </div>
             </div>
@@ -60,7 +60,7 @@
                 <p>Phone: +1345 322 456 1773</p>
 
                 <div id="svglogocontainer">
-                    <img id="footerlogo" src="https://itu-itis-2019.github.io/assignment1-ituitis-baglayan19/images/moonstrucklogo.svg" alt="Moonstruck Entertainment">
+                    <img id="footerlogo" src="static/images/moonstrucklogo.svg" alt="Moonstruck Entertainment">
                 </div>
             </div>
         </div>
