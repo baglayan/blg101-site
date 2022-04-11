@@ -39,11 +39,10 @@
                 </div>
             </div>
         </div>
-        <<<<<<< Updated upstream </body>
+
 
 </html>
-=======
+
 </body>
 
 </html>
->>>>>>> Stashed changes

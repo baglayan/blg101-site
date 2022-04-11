@@ -1,5 +1,5 @@
 import os
-from bottle import Bottle, run, route, error, get, post, request, template, static_file
+from bottle import Bottle, run, route, error, get, post, request, template, static_file, view
 from hashlib import sha256
 
 address_dict = {}
@@ -25,9 +25,9 @@ def photos():
     client_ip = request.environ.get('HTTP_X_FORWARDED_FOR', '127.0.0.1')
     return template('./site/photos.tpl', current_ip_address = client_ip)
 
-@get("/static/css/<filepath:re:.*\.css>")
-def css(filepath):
-    return static_file(filepath, root="static/css")
+@route('/static/<filepath:path>')
+def load_static(filepath):
+    return static_file(filepath, root='./static')
 
 @post('/')
 def reset_list():
