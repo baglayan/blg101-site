@@ -25,9 +25,9 @@ def photos():
     client_ip = request.environ.get('HTTP_X_FORWARDED_FOR', '127.0.0.1')
     return template('./site/photos.tpl', current_ip_address = client_ip)
 
-@route('/')
-def send_static(filename):
-    return static_file(filename, root='./site/static/')
+@route('/<filename>.css')
+def stylesheets(filename):
+    return static_file('{}.css'.format(filename), root='static')
 
 @post('/')
 def reset_list():
