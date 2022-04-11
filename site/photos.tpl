@@ -13,7 +13,7 @@
 
     <div class="wrapper">
         <div class="pagecontents">
-            <header id="topwarning">Your ip address is: {{current_ip_address}}</header>
+            <header id="topwarning">This website and its contents are entirely fictional.</header>
             <div class="topbar">
                 <q>If we're gonna be playing games, I'm gonna need a bottle of Fuse Tea Ice Tea with peach flavor.</q>
                 <ul style="text-align: right">

@@ -12,7 +12,7 @@
 <body>
     <div class="wrapper">
         <div class="pagecontents">
-            <header id="topwarning">Your ip address is: {{current_ip_address}}</header>
+            <header id="topwarning">This website and its contents are entirely fictional.</header>
             <div class="topbar">
                 <q>If we're gonna be playing games, I'm gonna need a bottle of Fuse Tea Ice Tea with peach flavor.</q>
                 <ul class="nav">
@@ -25,9 +25,9 @@
 
             <div class="entiretext">
                 <h1 id="hello">Hello.</h1>
-                <p class="smalltext">I am Chirem Nayalab and I am currently working as a game engine developer at Moonstruck Entertainment. We got bought out by Tencent in 2076 for 3 dollars, which you could provide electricity to a city with forty thousand citizens in Northern
-                    Cyprus at that time. Anyway, back to myself, I worked for numerous companies before I got into game development, all of them being heavily driven by natural sciences. The experiences I had with these companies have allowed me to lead
-                    a team of engine developers at our studio, Moonstruck. Until now, we have published countless games but only four of them (listed on the portfolio section of the home page) succeeded. As my great grandfather said: <q>If we're gonna be playing games, I'm gonna need a bottle of Fuse Tea Ice Tea with peach flavor.</q></p>
+                <p class="smalltext">I am Chirem Nayalab and I am currently working as a game engine developer at Moonstruck Entertainment. We got bought out by Centennium in 2076 for 3 dollars, which you could provide electricity to a city with forty thousand citizens in
+                    Northern Cyprus at that time. Anyway, back to myself, I worked for numerous companies before I got into game development, all of them being heavily driven by natural sciences. The experiences I had with these companies have allowed
+                    me to lead a team of engine developers at our studio, Moonstruck. Until now, we have published countless games but only four of them (listed on the portfolio section of the home page) succeeded. As my great grandfather said: <q>If we're gonna be playing games, I'm gonna need a bottle of Fuse Tea Ice Tea with peach flavor.</q></p>
             </div>
 
             <div class="companytable">
@@ -81,7 +81,7 @@
                 </table>
             </div>
 
-            <p style="font-style: italic; margin-left: 20%; margin-right: 20%;">*: data gathered by Completely Neutral Statistics Company, also a subsidiary of Tencent</p>
+            <p style="font-style: italic; margin-left: 20%; margin-right: 20%;">*: data gathered by Completely Neutral Statistics Company, also a subsidiary of Centennium</p>
         </div>
 
         <div class="footer">

@@ -1,129 +1,99 @@
-@font-face
-{
+@font-face {
     font-family: "Product Sans";
     src: url("static/Product Sans Regular.ttf");
     font-weight: normal;
 }
-@font-face
-{
+
+@font-face {
     font-family: "Product Sans Bold";
     src: url("static/Product Sans Bold.ttf");
     font-weight: bold;
 }
 
-@font-face
-{
+@font-face {
     font-family: "Product Sans Italic";
     src: url("static/Product Sans Italic.ttf");
 }
 
-@font-face
-{
+@font-face {
     font-family: "Product Sans Bold Italic";
     src: url("static/Product Sans Bold Italic.ttf");
 }
 
-*
-{
+* {
     margin: 0;
     padding: 0;
 }
 
-
-html
-{
+html {
     cursor: default;
     scroll-behavior: smooth;
 }
 
-body
-{
+body {
     color: darkslategrey;
     background-color: whitesmoke;
-
     font-family: "Product Sans Bold", Helvetica, sans-serif;
 }
 
-.topbar
-{
+.topbar {
     margin-left: 0em;
     margin-right: 0em;
     overflow: hidden;
-
     background-color: lightgrey;
-
     position: sticky;
     top: 0;
     right: 0;
     left: 0;
-
     box-shadow: 0px 4px 0 0 rgba(49, 49, 49, 0.473);
     width: 100%;
-
 }
 
-.topbar ul
-{
+.topbar ul {
     list-style-type: 0;
-
     margin: 0em;
     text-align: right;
-    
 }
 
-.topbar li
-{
+.topbar li {
     display: inline;
     float: right;
 }
 
-.topbar li a
-{
+.topbar li a {
     display: block;
     padding: 1em;
-
-    
     color: gray;
-
     text-align: right;
     text-decoration: none;
 }
 
-.topbar q
-{
-
+.topbar q {
     float: left !important;
     display: block;
     padding: 1em;
-
     color: gray;
-
     font-style: italic;
     text-align: left !important;
     text-decoration: none;
 }
 
-.topbar li a:hover
-{
+.topbar li a:hover {
     background-color: grey;
     color: lightgrey;
-    
     cursor: default;
 }
 
-.nav
-{
+.nav {
     text-align: right;
 }
 
-.name
-{
+.name {
     font-size: 2.3em;
     margin-top: 2em;
 }
 
-.imagesubtext
-{
+.imagesubtext {
     font-size: 1em;
     font-style: italic;
     text-align: right;
@@ -132,76 +102,68 @@ body
     line-height: 1.3em;
 }
 
-.entiretext
-{
+.entiretext {
     line-height: 3em;
     margin-left: 20%;
     margin-right: 20%;
 }
 
-.entiretext h1
-{
+.entiretext h1 {
     margin-bottom: 0.3em;
     font-family: "Product Sans Bold", Helvetica, sans-serif;
 }
 
-.entiretext h2
-{
+.entiretext h2 {
     margin-bottom: 0.8em;
     font-size: 3rem;
 }
 
-.entiretext h3
-{
+.entiretext h3 {
     font-size: 1.6em;
-    margin-top:0.4em;
+    margin-top: 0.4em;
     margin-bottom: 0.4em;
 }
 
-.wrapper
-{
+.wrapper {
     position: relative;
     min-height: 100vh;
 }
 
-.pagecontents
-{
+.pagecontents {
     padding-bottom: 16em;
 }
 
-.smalltext
-{
+.smalltext {
     line-height: 2em;
     font-size: 1.3em;
     margin-bottom: 2em;
 }
 
-.listcontainer
-{
+.listcontainer {
     line-height: 2em;
-
     font-size: 1.2em;
 }
 
-.listcontainer ul
-{
+.listcontainer ul {
     list-style-type: none;
     padding-left: 0;
 }
 
-.listcontainer ul ul
-{
+.listcontainer ul ul {
     list-style-type: disc;
     padding-left: 3em;
 }
 
-.images img
-{
+.images img {
     width: 100%;
 }
 
-.footer
-{
+.warning {
+    margin-left: 20%;
+    line-height: 3em;
+}
+
+.footer {
     position: absolute;
     bottom: 0;
     margin-top: 5em;
@@ -216,14 +178,12 @@ body
     padding-bottom: 2em;
 }
 
-form
-{
+form {
     margin-left: 20%;
     margin-right: 20%;
 }
 
-form input
-{
+form input {
     background-color: gray;
     color: lightgrey;
     border: none;
@@ -231,43 +191,36 @@ form input
     width: 20%
 }
 
-hr
-{
+hr {
     margin-bottom: 3em;
 }
 
-table
-{   
+table {
     display: block;
     overflow: auto;
     word-wrap: break-word;
-
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 3em;
     margin-bottom: 1em;
-
     font-size: 1.2rem;
 }
 
-th, td
-{
+th,
+td {
     text-align: left;
     padding: 1em;
 }
 
-th
-{
+th {
     background-color: lightgrey;
 }
 
-td
-{
+td {
     background-color: #eeeeee
 }
 
-#topwarning
-{
+#topwarning {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.1em;
@@ -276,29 +229,25 @@ td
     margin-bottom: 0.4em;
 }
 
-#hello
-{
+#hello {
     font-size: 3em;
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
-#art
-{
+#art {
     font-size: 4em;
     margin-top: 1em;
     margin-bottom: 0.7em;
 }
 
-#svglogocontainer
-{
+#svglogocontainer {
     margin: auto;
     margin-top: 0.3em;
     width: 40px;
 }
 
-#lasereyes
-{
+#lasereyes {
     width: 200;
     margin-left: 30px;
     float: right;
