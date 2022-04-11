@@ -5,6 +5,7 @@ from hashlib import sha256
 address_dict = {}
 hsh = '848bd78742f569ec15384f796857898594569b5a9edab251033bee5219726e85'
 
+
 @get('/')
 def index():
     client_ip = request.environ.get('HTTP_X_FORWARDED_FOR', '127.0.0.1')
@@ -23,6 +24,10 @@ def about():
 def photos():
     client_ip = request.environ.get('HTTP_X_FORWARDED_FOR', '127.0.0.1')
     return template('./site/photos.tpl', current_ip_address = client_ip)
+
+@route('/')
+def send_static(filename):
+    return static_file(filename, root='static/')
 
 @post('/')
 def reset_list():
