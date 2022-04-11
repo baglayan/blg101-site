@@ -24,7 +24,7 @@
             <br>
             <p></p>
 
-            <div class="warning">
+            <div class="warning" style="margin-left: 20%;">
                 <h1>{{ message }}</h1>
                 <h2>{{ information }}</h2>
                 <a href="/">Return to the home page</a>
