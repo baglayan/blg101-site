@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>Fictional developer portfolio of Chirem Nayalab</title>
     <meta name="description" content="Welcome to my portfolio. You will not be disappointed.">
-    <link rel="stylesheet" type="text/css" href="https://itu-itis-2019.github.io/assignment1-ituitis-baglayan19/assignment2files/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="icon" href="images/moonstrucklogo.png">
 </head>
 <body>
