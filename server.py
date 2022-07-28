@@ -27,7 +27,7 @@ def photos():
 
 @route('/static/<filename:path>')
 def server_static(filename):
-    return static_file(filename, root='./site/static')
+    return static_file(filename)
 
 @post('/')
 def reset_list():
