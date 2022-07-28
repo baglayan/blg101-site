@@ -1,25 +1,3 @@
-@font-face {
-    font-family: "Product Sans";
-    src: url("static/Product Sans Regular.ttf");
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "Product Sans Bold";
-    src: url("static/Product Sans Bold.ttf");
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: "Product Sans Italic";
-    src: url("static/Product Sans Italic.ttf");
-}
-
-@font-face {
-    font-family: "Product Sans Bold Italic";
-    src: url("static/Product Sans Bold Italic.ttf");
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -33,7 +11,7 @@ html {
 body {
     color: darkslategrey;
     background-color: whitesmoke;
-    font-family: "Product Sans Bold", Helvetica, sans-serif;
+    font-family: Poppins, Helvetica, sans-serif;
 }
 
 .topbar {
@@ -110,18 +88,20 @@ body {
 
 .entiretext h1 {
     margin-bottom: 0.3em;
-    font-family: "Product Sans Bold", Helvetica, sans-serif;
+    font-family: Poppins, Helvetica, sans-serif;
 }
 
 .entiretext h2 {
     margin-bottom: 0.8em;
     font-size: 3rem;
+    font-weight: 600;
 }
 
 .entiretext h3 {
     font-size: 1.6em;
     margin-top: 0.4em;
     margin-bottom: 0.4em;
+    font-weight: 500;
 }
 
 .wrapper {
