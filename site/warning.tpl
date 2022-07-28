@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <title>Fictional developer portfolio of Chirem Nayalab</title>
     <meta name="description" content="Welcome to my portfolio. You will not be disappointed.">
-    <link rel="stylesheet" type="text/css" href="https://baglayan.github.io/baglayanDEV/style.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/style.css" />
     <link rel="icon" href="static/images/moonstrucklogo.png">
 </head>
 

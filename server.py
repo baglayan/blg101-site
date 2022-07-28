@@ -26,8 +26,8 @@ def photos():
     return template('./site/photos.tpl', current_ip_address = client_ip)
 
 @route('/static/<filename:path>')
-def static_file(filename='index.html'):
-    return static_file(filename, root='static')
+def server_static(filename):
+    return static_file(filename, root='./site/static')
 
 @post('/')
 def reset_list():
